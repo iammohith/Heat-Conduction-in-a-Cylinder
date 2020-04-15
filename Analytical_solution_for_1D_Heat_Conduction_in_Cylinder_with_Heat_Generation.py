@@ -24,7 +24,6 @@ plt.figure(1)
 plt.plot(r,T,color='red', linestyle='dashed', marker='.', markerfacecolor='blue')
 plt.xlabel('Distacnce (m)')
 plt.ylabel('Temperature (C)')
-plt.title('Axisymettrical Temperature Graph')
+plt.title('Axisymmetrical Temperature Graph')
 print("The temperatures are:",T)
-            
 

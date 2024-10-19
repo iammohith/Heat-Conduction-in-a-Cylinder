@@ -28,15 +28,15 @@ Where:
 
 ### 2. **Temperature Distribution with Fluid Interaction**
 
-When the cylinder is immersed in a fluid with temperature \( T_{\infty} \) and heat transfer coefficient \( h_c \), the temperature distribution becomes:
+When the cylinder is immersed in a fluid with temperature $T_{\infty}$ and heat transfer coefficient $h_c$, the temperature distribution becomes:
 
-\[
+$$
 T(r) = \frac{Q_g \cdot R^2}{4 \cdot K} \cdot \left(1 - \left(\frac{r}{R}\right)^2\right) + T_{\infty} + \frac{Q_g \cdot R}{2 \cdot h_c}
-\]
+$$
 
 Where:
-- \( T_{\infty} \) is the surrounding fluid temperature (°C).
-- \( h_c \) is the convective heat transfer coefficient.
+- $T_{\infty}$ is the surrounding fluid temperature (°C).
+- $h_c$ is the convective heat transfer coefficient.
 
 ### 3. **Convective Heat Transfer Coefficient**
 

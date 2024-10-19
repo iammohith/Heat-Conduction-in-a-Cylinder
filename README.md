@@ -40,14 +40,14 @@ Where:
 
 ### 3. **Convective Heat Transfer Coefficient**
 
-The heat transfer coefficient \( h_c \) can be calculated as:
+The heat transfer coefficient $h_c$ can be calculated as:
 
-\[
+$$
 h_c = \frac{Q_g \cdot R}{2 \cdot \theta}
-\]
+$$
 
 Where:
-- \( \theta = T_w - T_{\infty} \) is the temperature difference between the wall and the fluid.
+- $\theta = T_w - T_{\infty}$ is the temperature difference between the wall and the fluid.
 
 ## Usage
 
@@ -69,7 +69,7 @@ Where:
    ```
 
 4. **Modify Parameters**:
-   You can change parameters such as \( T_w \), \( T_{\infty} \), \( R \), \( Q_g \), and \( K \) in the scripts to test different thermal scenarios.
+   You can change parameters such as $T_w$, $T_{\infty}$, $R$, $Q_g$, and $K$ in the scripts to test different thermal scenarios.
 
 ## Visualizations
 

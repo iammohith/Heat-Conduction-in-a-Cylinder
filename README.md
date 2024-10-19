@@ -4,7 +4,7 @@ This repository contains Python code for simulating heat conduction in a long cy
 
 ## Project Overview
 
-This project explores the thermal behavior of a cylinder with radius \( R \), subject to internal heat generation \( Q_g \) and external thermal conditions. The wall temperature \( T_w \) and the effect of thermal conductivity \( K \) are taken into account to calculate the temperature distribution across the cylinder.
+This project explores the thermal behavior of a cylinder with radius $R$, subject to internal heat generation $Q_g$ and external thermal conditions. The wall temperature $T_w$ and the effect of thermal conductivity $K$  are taken into account to calculate the temperature distribution across the cylinder.
 
 ### Key Features:
 - Solves heat conduction problems with heat generation within the cylinder.
@@ -15,16 +15,16 @@ This project explores the thermal behavior of a cylinder with radius \( R \), su
 
 ### 1. **Temperature Distribution with Heat Generation**
 
-For a long cylinder with radius \( R \) and wall temperature \( T_w \), the temperature distribution is given by:
+For a long cylinder with radius $R$ and wall temperature $T_w$, the temperature distribution is given by:
 
-\[
+$$
 T(r) = \frac{Q_g \cdot R^2}{4 \cdot K} \cdot \left(1 - \left(\frac{r}{R}\right)^2\right) + T_w
-\]
+$$
 
 Where:
-- \( T(r) \) is the temperature at radial distance \( r \) from the center.
-- \( Q_g \) is the heat generation per unit volume (W/m³).
-- \( K \) is the thermal conductivity of the cylinder material (W/m·K).
+- $T(r)$ is the temperature at radial distance \( r \) from the center.
+- $Q_g$ is the heat generation per unit volume (W/m³).
+- $K$ is the thermal conductivity of the cylinder material (W/m·K).
 
 ### 2. **Temperature Distribution with Fluid Interaction**
 

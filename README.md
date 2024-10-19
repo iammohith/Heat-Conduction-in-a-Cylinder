@@ -47,7 +47,7 @@ h_c = \frac{Q_g \cdot R}{2 \cdot \theta}
 $$
 
 Where:
-- $\theta = T_w - T_{\infty}$ is the temperature difference between the wall and the fluid.
+- $\theta = |T_w - T_{\infty}|$ is the absolute temperature difference between the wall and the fluid.
 
 ## Usage
 
